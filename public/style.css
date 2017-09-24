@@ -1,0 +1,44 @@
+/****** Main Styling ******/
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 16px;
+	color: #222;
+	background-color: #ECF0F1;
+	text-align: center;
+}
+
+.container {
+  width: 100%;
+	padding: 0;
+}
+
+.howto {
+  display: inline-block;
+  margin: auto;
+  padding: 20px;
+  background-color: #DDD;
+  width: 700px;
+	text-align: left;
+}
+
+.footer {
+	margin-top: 60px;
+}
+
+ol {
+	list-style-position: inside;
+}
+ul {
+	list-style-type: none;
+}
+
+a {
+	color: #2574A9;
+}
+/****** Logo Div Styling ******/
+
+img {
+	margin: 20px auto 0 auto;
+	display: block;
+}
