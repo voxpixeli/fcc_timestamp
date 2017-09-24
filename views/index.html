@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Timestamp Microservice</title>
+      <link href="/public/style.css" rel="stylesheet" type="text/css">
+   </head>
+
+   <body>
+      <div class="container">
+        <h1>Timestamp Microservice</h1>
+        <div class="howto">
+          <p>
+            usage : provide a date (unix timestamp or a natural language) as parameter
+          </p>
+          <p>
+            result : get a JSON object with 'unix' and 'natural' dates
+          </p>
+          <p>
+            <br/><u>examples :</u><br/><br/>
+            https://silent-playroom.glitch.me/<b>March%208,%202001</b><br/><br/>&nbsp;returns <i>{"unix":984009600000,"natural":"March 8, 2001"}</i><br/><br/>
+            https://silent-playroom.glitch.me/<b>1320837500000</b><br/><br/>&nbsp;returns <i>{"unix":1320837500000,"natural":"November 9, 2011"}</i>
+          </p>
+        </div>
+      </div>
+   </body>
+
+</html>
